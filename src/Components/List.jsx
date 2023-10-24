@@ -59,7 +59,7 @@ function List() {
           ))}
         </select>
 
-        {/*conditional rendering: passing stateId to CityList Component when state is getting changed on selecting state */}
+        {/*conditional rendering to Citylist component: passing stateId to CityList Component when state is getting changed on selecting state */}
         {selectedState && (
           <CitiesList
             stateId={selectedState}
